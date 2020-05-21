@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Rockwell;
+}
+
+body {
+  background-color: #EFF3F8;
+}
+
+body #content {
+  position: relative;
+  height: auto;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  color: #ffffff;
+}
+
+body #content #produit {
+  position: relative;
+  height: auto;
+  width: 94%;
+  left: 3%;
+  right: 3%;
+}
+
+body #content #produit #com {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #content #produit #com #catigorie {
+  color: #000000;
+  position: relative;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #content #produit #com a {
+  display: inline;
+  font-size: 18px;
+  position: relative;
+  color: #0992FB;
+}
+
+body #content #produit #prd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body #content #produit #prd #prd1 {
+  height: 270px;
+  width: 195px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+body #content #produit #prd #prd1 .imgP {
+  width: 195px;
+  height: 175px;
+  overflow: hidden;
+}
+
+body #content #produit #prd #prd1 .p1 {
+  color: black;
+  font-size: medium;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+body #content #produit #prd #prd1 .prix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 20px;
+  overflow: hidden;
+}
+
+body #content #produit #prd #prd1 .prix button {
+  color: #0992FB;
+  border: none;
+  padding: 0px;
+  background-color: #ffffff;
+  font-size: 25px;
+  position: relative;
+  top: -10px;
+}
+/*# sourceMappingURL=index.css.map */

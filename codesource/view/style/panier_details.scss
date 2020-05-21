@@ -1,0 +1,43 @@
+//
+//
+//
+//
+//
+@import "_topNav", "_footer";
+
+.margin_tb {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.margin_none {
+  margin: none;
+}
+.container_fit {
+  width: fit-content;
+}
+.padding_70 {
+  padding: 70px;
+}
+.bg_mainBgColor {
+  background-color: $mainBgColor;
+}
+.grey_text {
+  color: grey;
+}
+.size_imgs_big {
+  height: 122px;
+  width: 133px;
+}
+.margin_auto {
+  margin: auto;
+}
+.flex_column_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon_margin_2 {
+  margin-left: 20px;
+  margin-right: 2px;
+}

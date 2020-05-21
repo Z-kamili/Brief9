@@ -1,0 +1,102 @@
+header{
+    width: 100%;
+    height: max-content;
+    padding: 24px 0;
+    .standardBasket{
+        width: 96%;
+        height: 100%;
+        margin: auto auto;
+        .discription{
+            width: 100%;
+            margin: 32px 0;
+            text-align: center;
+            font-family: $mainFont;
+            font-size: 40px;
+            color: $footerBgColor2;
+        }
+        .slider{
+            width: 100%;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            .backbtn{
+                width: 32px;
+                height: 48px;
+                margin:auto 16px;
+                // box-shadow: 0px 0px 4px 0px black;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .slid{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                background-color: #4A5D6C;
+                ul{
+                    width: max-content;
+                    list-style: none;
+                    color: white;
+                    margin: auto;
+                    font-family: $headerFont;
+                    font-size: $mainFontSize + 8;
+                }
+                .basketImg{
+                    width: 40%;
+                    height: 300px;
+                    background-image: url(../imgs/unnamed.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .containerTitle{
+                    width: 30%;
+                    height: 100%;
+                    justify-content: space-between;
+                   .basketTitle{
+                        height: 50%;
+                        text-align: center;
+                        font-family: $headerFont;
+                        font-size: 48px;
+                        color: $mainColor;
+                        span{
+                            display: block;
+                            margin: auto;
+                        }
+                   } 
+                   .containerPrice{
+                       display: flex;
+                       width: 100%;
+                       float: right;
+                        .basketPrice{
+                            padding: 8px;
+                            font-size: $mainFontSize;
+                            color: #FE3E01;
+                            background-color: yellow;
+                            border: 2px solid #FE3E01 ;
+                            border-radius: 4px;
+                        }
+                       #addBasketBtn{
+                            padding: 16px;
+                            margin: 16px;
+                            color: white;
+                            background-color: #FE3E01;
+                            border: none;
+                            border-radius: 4px;
+                       }
+                    }
+                }
+            }
+            .nextBtn{
+                width: 32px;
+                height: 48px;
+                margin:auto 16px;
+                // box-shadow: 0px 0px 4px 0px black;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

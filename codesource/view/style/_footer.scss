@@ -1,0 +1,205 @@
+
+@import "_variables";
+footer{
+    width: 100%;
+    margin-bottom: 0 !important;
+    .footerContainer{
+        .contact{
+            display: flex;
+            justify-content: space-between;        
+            font-size: 16px;
+            background-color: $footerBgColor1;
+            box-shadow: 0px 0px 16px 0px $footerBgColor1;
+            @media #{$maxMobile} {
+                display: block; 
+                padding: 24px 0;
+            }
+            @media #{$minSmall} {
+                padding: 40px 3%;
+            }
+            @media #{$minMedium} {
+                padding: 40px 6%;
+            }
+            @media #{$minLarge} {
+                padding: 40px 10%;
+            }
+            
+            .leftDiv{
+                width: max-content;
+                height: max-content;
+                @media #{$maxMobile} {
+                    margin: 0 0 24px 24px;
+                }
+                img{
+                    width: 136px;
+                    height: 40px;
+                    padding: 8px 0;
+                }
+            }
+
+            .middleDiv{
+                width: max-content;
+                @media #{$maxMobile} {
+                    width: 97%;    
+                    text-align: center;
+                    margin: 32px auto;
+                }
+                @media #{$minSmall} {
+                    padding: 0 32px;
+                }
+                @media #{$minMedium} {
+
+                }
+                @media #{$minLarge} {
+
+                }
+                div{
+                    padding: 8px 0;
+                    color:$footerColor1;
+                    font-family: $navFont;
+                    form{
+                        @media #{$minMedium} {
+                            display: flex;
+                            width: 100%;
+                        }
+                        input{
+                            margin:auto 0 ;
+                            width: 64%;
+                            padding: 4px 12px;
+                            font-family: $navFont;
+                            font-size: 18px;
+                            border: 2px solid $footerColor1;
+                            @media #{$maxMobile} {
+                                width: 95%;
+                                margin: 8px 0;
+                            }
+                            @media #{$minSmall} {
+                                width: 100%;
+                            }
+                            @media #{$minMedium} {
+                                width: 67%;
+                                margin-right: 8px;
+                            }
+                        }
+                        button{
+                            color: $footerColor1;
+                            background-color: $footerBgColor1;
+                            padding: 8px;
+                            margin: auto 0 auto 8px;
+                            border: 2px solid $footerColor1;
+                            border-radius: 4px;
+                            &:hover{
+                                color: $footerBgColor1;
+                                background-color: $footerColor1;
+                                font-weight: bold;
+                            }
+                            @media #{$minSmall} {
+                                margin: auto 8px auto 0px;
+                            }
+                            @media #{$minMedium} {
+                                margin: auto 0 auto 8px;
+                            }
+                        }
+
+                    }
+                }
+            }
+            .rightDiv{  
+                width: max-content;
+                @media #{$maxMobile} {
+                    width: 100%;    
+                    text-align: center;
+                    justify-items: center;
+                    margin: 24px 0;
+                }  
+                span{
+                    color: $footerColor1;
+                    font-family: $navFont;
+                    padding: 8px ;
+                    display: block;
+                    @media #{$minSmall} {
+                        width: 130px;
+                    }
+                }           
+                ul{
+                    display: flex;
+                    list-style: none;
+                    @media #{$maxMobile} {
+                        width: 100%;    
+                        justify-content: center;
+                    }  
+                    li{
+                        padding-left: 8px;
+                        img{
+                            height: 24px;
+                            width: 24px;
+                        }    
+                    }
+                }
+                
+            }
+        }
+
+       .linksContainer{
+            padding: 0 10%;
+            justify-content: space-between;
+            box-shadow: 0px 0px 16px 8px $footerBgColor2;
+            background-color: $footerBgColor2;
+            @media #{$maxMobile} {
+                padding: 0px 5%;
+            }
+            @media #{$minSmall} {
+                padding: 0px 2%;
+            }
+            @media #{$minMedium} {
+                padding: 0px 3%;
+            }
+            @media #{$minLarge} {
+                padding: 0px 10%;
+            }
+            .links{
+                display: flex;
+                justify-content: space-between;
+                border-bottom:1px solid $footerColor2 ;
+                padding: 32px 0;
+                @media #{$maxMobile} {
+                    display: block;
+                }
+                .linksColumn{
+                    width: max-content;
+                    list-style: none;
+                    padding: 8px;
+                    span{
+                        color: $footerColor1;
+                        font-size: $mainFontSize - 1;
+                        display: block;
+                        padding: 8px 0;
+                    }
+                    li{
+                        list-style: none;
+                        color: $footerColor2;
+                        font-family: $navFont;
+                        font-size: $mainFontSize - 3;
+                        padding: 4px 0;
+                        &:hover{
+                        color: $mainColor;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .footerButtom{
+            background-color: $footerBgColor2;
+            text-align: center;
+            padding: 24px 0;
+            span{
+                color: $footerColor1;
+                font-size: $mainFontSize - 4;
+                font-family: $navFont;
+            }
+        }
+    }
+}
+   
+    

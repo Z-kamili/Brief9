@@ -1,0 +1,102 @@
+$bl: #000000; 
+$w :#ffffff; 
+$bleuCiel:#EFF3F8;
+$bleu:#0992FB;
+* {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        font-family: Rockwell;
+        
+ }
+ body{
+     background-color: $bleuCiel;
+     #content{
+        position: relative;
+        height: auto;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        color: $w;
+        #produit{
+            position: relative;
+            height:auto ;
+            width:94% ;
+            left: 3%;
+            right: 3%;
+
+            #com{
+                display: flex;
+                justify-content: space-between;
+                #catigorie{
+                    color: $bl;
+                    position: relative;
+                    font-size: 18px;
+                    display: flex;
+                }
+                a{
+                    display: inline;
+                    font-size: 18px;
+                    position: relative;
+                    color: $bleu;
+
+                    
+                }
+            }
+            #prd{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+             #prd1{
+                height: 270px;
+                width: 195px;
+                background-color: $w;
+                border: 1px solid black;
+                margin-top: 20px;
+                overflow: hidden;
+                .imgP{
+                    width: 195px;
+                    height: 175px;
+                    overflow: hidden;
+                    
+
+                }
+                .p1{
+                    color: black;
+                    font-size: medium;
+                    position: relative;
+                    text-align: center;
+                    font-size: 15px;
+                    padding: 10px;
+                }
+                .prix{
+                    display: flex;
+                    flex-direction: row;   
+                    justify-content: space-between;  
+                    padding: 0px 20px; 
+                    overflow: hidden;
+
+                    
+                    button{
+                        color:$bleu;
+                        border: none;
+                        padding: 0px;
+                        background-color: $w;
+                        font-size: 25px;
+                        position: relative;
+                        top: -10px;
+                    }
+                }
+                
+            }   
+            }
+            
+           
+        }
+     }
+ }
+ 

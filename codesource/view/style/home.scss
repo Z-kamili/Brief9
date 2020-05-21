@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import "_topNav" , "_header" , "_footer";
+body{
+    background-color: $bodyBgColor;
+    .container{
+        height: 100%;
+        margin: 54px 7% 0 7%;
+        background-color: $mainBgColor;
+        padding-top: 32px;
+        @media #{$maxMobile} {
+            margin: 0;
+        }
+    }
+}

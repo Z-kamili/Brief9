@@ -1,0 +1,27 @@
+// colors
+$mainColor:#0992FB;
+$secondColor:#282828;
+$bodyBgColor:#EFF3F8;
+$mainBgColor:#FCFBFB;
+$footerBgColor1:#243746;
+$footerBgColor2:#132B3D;
+$footerColor1:#F2F6F9;
+$footerColor2:#D4D4D4;
+
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$navFont: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+$headerFont: 'Dancing Script', cursive;
+$mainFont:  sans-serif;
+$FontFamily3: sans-serif;
+$mainFontSize: 16px;
+
+// media query
+$maxMobile:"(max-width: 767px)";
+$minSmall:"(min-width: 768px)";
+$minMedium:"(min-width: 991px)";
+$minLarge:"(min-width: 1200px)";
+
+
